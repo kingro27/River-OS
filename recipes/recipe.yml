@@ -1,16 +1,9 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-<<<<<<< HEAD
 name: river-os
-=======
-name: template
->>>>>>> template/main
-# description will be included in the image's metadata
 description: This is my personal OS image.
 
-# the base image to build on top of (FROM) and the version tag to use
-<<<<<<< HEAD
 base-image: ghcr.io/ublue-os/bazzite-dx
 image-version: latest # latest is also supported if you want new updates ASAP
 
